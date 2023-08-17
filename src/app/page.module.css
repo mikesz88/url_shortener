@@ -7,6 +7,13 @@
   min-height: 100vh;
 }
 
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
@@ -227,3 +234,4 @@
     transform: rotate(0deg);
   }
 }
+
